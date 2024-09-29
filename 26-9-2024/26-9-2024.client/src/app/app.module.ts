@@ -13,6 +13,7 @@ import { StickyHeaderComponent } from './sticky-header/sticky-header.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { BrandComponent } from './brand/brand.component';
+import { ProductsCategoriesComponent } from './products-categories/products-categories.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BrandComponent } from './brand/brand.component';
     StickyHeaderComponent,
     AboutUsComponent,
     ContactUsComponent,
-    BrandComponent
+    BrandComponent,
+    ProductsCategoriesComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

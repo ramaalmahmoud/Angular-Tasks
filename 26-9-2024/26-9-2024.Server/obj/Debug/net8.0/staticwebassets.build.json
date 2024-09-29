@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "IPc7XFMWbFGSl2IjYLkz8Pm28kHEQfk1NV9FIaTfpD8=",
+  "Hash": "E15Wm8i7B5CQjVf4U2I4hMIesdEJzGuiwt79ik/3Fdc=",
   "Source": "26-9-2024.Server",
   "BasePath": "_content/26-9-2024.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\26-9-2024.client.esproj",
+      "Identity": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\26-9-2024.client.esproj",
       "Version": 2,
       "Source": "26-9-2024.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace _26_9_2024.Server.Models;
+
+public partial class Product
+{
+    public int ProductId { get; set; }
+
+    public string? Title { get; set; }
+
+    public string? Description { get; set; }
+
+    public decimal? Price { get; set; }
+
+    public int? Stock { get; set; }
+
+    public int CategoryId { get; set; }
+
+    public string? Image { get; set; }
+
+    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
+
+    public virtual ProductCategory Category { get; set; } = null!;
+
+    public virtual ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
+
+    public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
+}
