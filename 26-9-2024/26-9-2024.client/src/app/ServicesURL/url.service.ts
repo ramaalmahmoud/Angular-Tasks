@@ -7,12 +7,18 @@ import { Observable } from 'rxjs';
 })
 export class UrlService {
 
-  constructor(private http: HttpClient) {
-  }
-  staticPart = "https://localhost:7081/api"
+  constructor(private http: HttpClient) {}
+  staticPart = "https://localhost:7088/api"
+  urlService = `${this.staticPart}/Categories/categories`;
 
   getCategories(): Observable<any> {
-    debugger
-    return this.http.get<any>(`${this.staticPart}/Categories/categories`);
+    
+    return this.http.get<any>(this.urlService);
+    
+  }
+  getProducts(): Observable<any> {
+
+    return this.http.get<any>(`${this.staticPart}/Products/all`);
+
   }
 }

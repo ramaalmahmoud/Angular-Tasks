@@ -9,15 +9,17 @@ import { UrlService } from '../ServicesURL/url.service';
 export class ProductsCategoriesComponent {
 
   ngOnInit() {
+    
     this.getCategories();
   }
   constructor(private _ser: UrlService) {
-
+   
   }
   categoriesArray: any
   getCategories() {
+    
     this._ser.getCategories().subscribe((data) => {
-      debugger
+      
       this.categoriesArray = data
       console.log(this.categoriesArray)
 
