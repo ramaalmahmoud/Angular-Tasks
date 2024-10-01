@@ -1,0 +1,11 @@
+<p>{{name}} {{num}}</p>
+<img [src]="imgUrl" width="150" height="150" />
+<button (click)="changeName()">change</button>
+<input type="number" value="{{num}}" [(ngModel)]="num" />
+
+<p *ngSwitch="clur"></p>
+<p *ngSwitchCase="'blue'"></p>
+<p *ngSwitchCase="'red'"></p>
+
+
+

@@ -1,0 +1,23 @@
+<div class="col-xl-6 col-lg-6">
+  <div class="login-page__single">
+    <h3 class="login-page__title">Login</h3>
+    <form class="login-page__form" #loginUserform="ngForm" (ngSubmit)="loginUser(loginUserform.value)">
+      <div class="login-page__form-input-box">
+        <input name="Email" type="email" placeholder="Username or Email *" ngModel>
+      </div>
+      <div class="login-page__form-input-box">
+        <input name="Password" type="password" placeholder="Password *" ngModel>
+      </div>
+      <div class="checked-box">
+        <input type="checkbox" name="skipper2" id="skipper2" checked="">
+        <label for="skipper2"><span></span>Remember Me?</label>
+      </div>
+      <div class="login-page__form-btn-box">
+        <button onclick="login()" type="submit" class="thm-btn login-page__form-btn">Login</button>
+        <div class="login-page__form-forgot-password">
+          <a href="#">Forgot your Password?</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
