@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\Orange\\Desktop\\Angular-lectures\\AngularApp2\\AngularApp2.Server\\..\\angularapp2.client",
+"WorkingDirectory": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\1-10-2024\\AngularApp2\\AngularApp2.Server\\..\\angularapp2.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

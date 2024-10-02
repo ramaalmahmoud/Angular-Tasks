@@ -1,0 +1,27 @@
+<div class="col-xl-6 col-lg-6">
+  <div class="login-page__single">
+    <h3 class="login-page__title">Register</h3>
+    <form class="login-page__form"  #registrationUser="ngForm" (ngSubmit)="regiisterUser(registrationUser.value)">
+      <div class="login-page__form-input-box">
+        <input name="Username" type="text" placeholder="Username *" ngModel>
+      </div>
+      <div class="login-page__form-input-box">
+        <input name="Email" type="text" placeholder=" Email *" ngModel>
+      </div>
+      <div class="login-page__form-input-box" >
+        <input name="Password" type="Password" placeholder="Password *" id="password" ngModel>
+      </div>
+      <div class="login-page__form-input-box">
+        <input name="RepeatedPassword" type="Password" placeholder="Repeat Password *" id="repeatPass" ngModel>
+      </div>
+      <div class="checked-box">
+        <input type="checkbox" name="skipper3" id="skipper3" checked="">
+        <label for="skipper3"><span></span>I accept company privay policy.</label>
+      </div>
+      <div class="login-page__form-btn-box">
+        <button onclick="register()" type="submit" class="thm-btn login-page__form-btn">Register</button>
+        <a href="/login" class="btn">already have account? Login here</a>
+      </div>
+    </form>
+  </div>
+</div>
