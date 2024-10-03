@@ -1,0 +1,23 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">service name</th>
+      <th scope="col">description</th>
+      <th scope="col">action</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr *ngFor="let item of array">
+
+      <th></th>
+
+      <td> {{item.serviceName}}</td>
+      <td>{{item.description}}</td>
+      <td> <a routerLink="/dashboard/updateService/{{item.serviceId}}">edit</a></td>
+      
+     
+    </tr>
+  </tbody>
+</table>

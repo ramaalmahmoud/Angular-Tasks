@@ -18,14 +18,14 @@ export class AddServiceComponent {
   image: any
   changeImage(event: any) {
     
-    debugger
+   
     this.image = event.target.files[0]
 
   }
 
 
   addNewService(data: any) {
-    debugger
+    
     var form = new FormData();
     for (let key in data) {
       form.append(key,data[key])

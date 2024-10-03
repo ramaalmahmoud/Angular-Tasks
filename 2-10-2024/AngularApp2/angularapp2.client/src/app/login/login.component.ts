@@ -15,14 +15,14 @@ export class LoginComponent {
 
 
   loginUser(data: any) {
-    debugger
+    
     var form = new FormData();
     
     for (let key in data) {
       form.append(key, data[key])
     }
     this._ser.loginUser(form).subscribe((response) => {
-      debugger
+      
       if (response.role === 'admin') {
         alert("admin logedin sucssefully")
         this._router.navigate(["/dashboard"]);
