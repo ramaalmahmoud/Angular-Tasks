@@ -1,0 +1,20 @@
+<!--<div class="card" style="width: 18rem;" *ngFor="let item of subServicesData">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{item.subServiceName}}</h5>
+    <p class="card-text">{{item.description}}</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>-->
+
+<div class="card" style="width: 18rem;" *ngFor="let item of subServicesData">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{item.subServiceName}}</h5>
+    <p class="card-text">{{item.description}}</p>
+    <a routerLink="/servicedetails/{{item.subServiceId}}" class="btn btn-primary">Details</a>
+  </div>
+</div>
+
+
+

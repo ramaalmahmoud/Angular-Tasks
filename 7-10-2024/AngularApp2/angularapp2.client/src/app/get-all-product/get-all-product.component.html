@@ -1,0 +1,12 @@
+<div id="card" class="card" style="width: 18rem;" *ngFor="let item of productArray">
+  <!--<img id="--> <!--" class="card-img-top" src="../images/${element.productImage} " alt="Card image cap">-->
+  <div id="card-body" class="card-body">
+    <h5 id="card-title" class="card-title">{{item.productName}}</h5>
+    <p class="card-text">{{item.description}}</p>
+    <p class="card-text">{{item.price}} $</p>
+    <p><input type="number" [(ngModel)]="object.quantity" /></p>
+
+    <a  class="btn btn-primary" (click)="addToCart(item.productId)" >add to cart</a>
+  </div>
+</div>
+        `

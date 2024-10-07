@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{836D4A14-3B2A-4015-9EB8-3F750285184A}|26-9-2024.Server\\26-9-2024.Server.csproj|c:\\users\\orange\\desktop\\angular-tasks\\angular-tasks\\26-9-2024\\26-9-2024.server\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836D4A14-3B2A-4015-9EB8-3F750285184A}|26-9-2024.Server\\26-9-2024.Server.csproj|solutionrelative:26-9-2024.server\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DC20FC7-08F1-4D04-9D8F-A175DB8242DE}|26-9-2024.client\\26-9-2024.client.esproj|c:\\users\\orange\\desktop\\angular-tasks\\angular-tasks\\26-9-2024\\26-9-2024.client\\src\\app\\product\\product.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0DC20FC7-08F1-4D04-9D8F-A175DB8242DE}|26-9-2024.client\\26-9-2024.client.esproj|solutionrelative:26-9-2024.client\\src\\app\\product\\product.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0DC20FC7-08F1-4D04-9D8F-A175DB8242DE}|26-9-2024.client\\26-9-2024.client.esproj|c:\\users\\orange\\desktop\\angular-tasks\\angular-tasks\\26-9-2024\\26-9-2024.client\\src\\app\\servicesurl\\url.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{0DC20FC7-08F1-4D04-9D8F-A175DB8242DE}|26-9-2024.client\\26-9-2024.client.esproj|solutionrelative:26-9-2024.client\\src\\app\\servicesurl\\url.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{836D4A14-3B2A-4015-9EB8-3F750285184A}|26-9-2024.Server\\26-9-2024.Server.csproj|c:\\users\\orange\\desktop\\angular-tasks\\angular-tasks\\26-9-2024\\26-9-2024.server\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{836D4A14-3B2A-4015-9EB8-3F750285184A}|26-9-2024.Server\\26-9-2024.Server.csproj|solutionrelative:26-9-2024.server\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DC20FC7-08F1-4D04-9D8F-A175DB8242DE}|26-9-2024.client\\26-9-2024.client.esproj|c:\\users\\orange\\desktop\\angular-tasks\\angular-tasks\\26-9-2024\\26-9-2024.client\\src\\app\\products-categories\\products-categories.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,19 +122,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "products-categories.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\products-categories\\products-categories.component.html",
-              "RelativeDocumentMoniker": "26-9-2024.client\\src\\app\\products-categories\\products-categories.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\products-categories\\products-categories.component.html",
-              "RelativeToolTip": "26-9-2024.client\\src\\app\\products-categories\\products-categories.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "product.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\product\\product.component.html",
+              "RelativeDocumentMoniker": "26-9-2024.client\\src\\app\\product\\product.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\product\\product.component.html",
+              "RelativeToolTip": "26-9-2024.client\\src\\app\\product\\product.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-30T07:07:20.806Z"
+              "WhenOpened": "2024-09-29T13:15:02.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.Server\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "26-9-2024.Server\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.Server\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "26-9-2024.Server\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAiwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:42:57.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "product.component.ts",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\product\\product.component.ts",
               "RelativeDocumentMoniker": "26-9-2024.client\\src\\app\\product\\product.component.ts",
@@ -147,6 +161,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "products-categories.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\products-categories\\products-categories.component.html",
+              "RelativeDocumentMoniker": "26-9-2024.client\\src\\app\\products-categories\\products-categories.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\products-categories\\products-categories.component.html",
+              "RelativeToolTip": "26-9-2024.client\\src\\app\\products-categories\\products-categories.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-30T07:07:20.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "url.service.ts",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\ServicesURL\\url.service.ts",
               "RelativeDocumentMoniker": "26-9-2024.client\\src\\app\\ServicesURL\\url.service.ts",
@@ -155,31 +181,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-09-29T12:57:21.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.Server\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "26-9-2024.Server\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.Server\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "26-9-2024.Server\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T12:42:57.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "product.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\product\\product.component.html",
-              "RelativeDocumentMoniker": "26-9-2024.client\\src\\app\\product\\product.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular-Tasks\\Angular-Tasks\\26-9-2024\\26-9-2024.client\\src\\app\\product\\product.component.html",
-              "RelativeToolTip": "26-9-2024.client\\src\\app\\product\\product.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-29T13:15:02.324Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -1,0 +1,23 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">product name</th>
+      <th scope="col">quantity</th>
+      <th scope="col">action</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr *ngFor="let item of array">
+
+      <th></th>
+
+      <td> {{item.productId}}</td>
+      <td><button (click)="decreamnt(item.productId)">-</button> <input type="number" value="{{item.quantity}}" /> <button (click)="increamnt(item.productId)">+</button> </td>
+      <!--<td> <a routerLink="/dashboard/updateService/{{item.serviceId}}">edit</a></td>-->
+
+
+    </tr>
+  </tbody>
+</table>
